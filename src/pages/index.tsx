@@ -11,10 +11,14 @@ export default function Home() {
     new Cliente('Pedro', 54, '4'),
   ]
 
+  function clienteSelecionado(cliente: Cliente) {
+    console.log(cliente.nome)
+  }
+
   return (
     <div className="flex justify-center items-center h-screen bg-gradient-to-r from-blue-500 to-purple-500 text-white">
         <Layout titulo="Cadastro simples">
-            <Tabela clientes={clientes} />
+            <Tabela clientes={clientes} clienteSelecionado={clienteSelecionado} />
         </Layout>
     </div>
   )
