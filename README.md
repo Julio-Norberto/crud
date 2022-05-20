@@ -1,17 +1,10 @@
-## Começando
+# Crud
 
-Primeiro, Rode o comando:
+Esse projeto foi feito durante um curso de React ministrado pelo professor Leornardo Leitão. Nesse projeto utilizei o Next JS para desenvolver o front-end e o Firestore do Firebase como banco de dados.
 
-```bash
-npm run dev
-# ou
-yarn dev
-```
-
-Abra [http://localhost:3000](http://localhost:3000) com o seu navegador para ver o resultado.
-
-Esse projeto foi feito durante um curso de React ministrado pelo professor Leornardo Leitão.
-
+## Algumas tecnologias utilizadas:
+![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## Screenshots do projeto
 
