@@ -1,7 +1,7 @@
-import firebase from 'firebase/firebase-app'
+import firebase from "firebase/compat/app";
 import 'firebase/firestore'
 
-if(!firebase.getApps.length) {
+if(!firebase.apps.length) {
     firebase.initializeApp({
         apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
         authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
